@@ -181,7 +181,24 @@
         margin: 30px 30px;
         font-weight: 600;
     }
-   
+    #fourthSection .image-edu {
+        width: 100px;
+        height: 120px;
+        position: absolute;
+        margin: 0px -110px;
+    }
+    #fourthSection .image-edu1 {
+        width: 100px;
+        height: 120px;
+        position: absolute;
+        margin: 0px -110px;
+    }
+    #fourthSection .image-edu2 {
+        width: 100px;
+        height: 120px;
+        position: absolute;
+        margin: 0px 65rem;
+    }
     .vertical .vertical-title1 {
         margin: 2px 30px;
         width: max-content;
@@ -298,7 +315,33 @@
         text-align: left;
       }
       
-  
+      .contact-details h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+      
+      .contact-details p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+      }
+      
+      .contact-details form label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      
+      .contact-details form input[type="text"],
+      .contact-details form input[type="email"],
+      .contact-details form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
       
       .contact-details form textarea {
         resize: vertical;
